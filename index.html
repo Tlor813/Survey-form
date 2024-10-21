@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css"/>
+    </head>
+    <body> 
+      <header>
+      <h1 id="title">Sleep Survey Form</h1>
+      <p id="description">This is a survey to gather valuable information on how people usually sleep</p>
+      </header>
+      <form id="survey-form">
+        <fieldset>
+        <label id="name-label">Name
+          <input placeholder="Enter your name"  required id="name" type="text"></input>
+          </label>
+          <label id="email-label">Email
+          <input placeholder="Enter your email" required id="email" type="email"></input>
+          </label>
+          <label id="number-label">Age
+            <input placeholder="age" id="number" type="number" min="0" max="10"></input>
+            </label>
+</Fieldset>
+<fieldset>
+  <legend>What is your favorite sleep position? </legend>
+            <select id="dropdown">
+              <option>Face up</option>
+              <option>Face down</option>
+               <option>left side</option>
+              <option>right side</option>
+            </select>
+<legend> Prefer a warm or cool room?
+        
+        <label for="personal-account"><input id="personal-account" type="radio" name="account-type" class="inline" checked /> Warm</label>
+        <label for="business-account"><input id="business-account" type="radio" name="account-type" class="inline" /> Cool</label>
+      </fieldset>
+           
+          <label>Additional Sleep habits.</label>  
+
+<input type="checkbox" value="checkbox1" class="inline"/> Snore<br>
+<input type="checkbox" value="checkbox2" class="inline"/> Open mouth<br>
+<input type="checkbox" value="checkbox3" class="inline"/>Eyes open<br>
+<input type="checkbox" value="checkbox1" class="inline"/>Stressed before bed<br>
+<input type="checkbox" value="checkbox2" class="inline"/>Electronics before bed<br>
+<input type="checkbox" value="checkbox3" class="inline"/>Eating before bed<br>
+<input type="checkbox" value="checkbox2" class="inline"/>Alcohol before bed<br>
+        
+<label>Any comments or additional sleep habits?</label>
+<textarea type="textarea" ></textarea>
+
+
+<input type="submit" value="Submit" />
+</fieldset>
+            </form>
+            </body>
